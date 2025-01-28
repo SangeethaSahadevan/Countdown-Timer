@@ -1,4 +1,4 @@
-const endDate = new Date("27 Jan, 2025 22:52:00 ").getTime();
+const endDate = new Date("1 Jan, 2026 00:00:00 ").getTime();
 const startDate = new Date().getTime();
 
 let x = setInterval( function updateTimer(){
@@ -31,7 +31,7 @@ let x = setInterval( function updateTimer(){
     if(distancePending <= 0){
 
         clearInterval(x);
-        document.getElementById("countDown").innerHTML =  "⏳⏲Time's Up⏲⏳!";
+        document.getElementById("countDown").innerHTML =  "Happy New Year 2026!!!";
         document.getElementById("progressBar").style.width = "100%";
         
 
